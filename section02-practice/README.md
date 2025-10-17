@@ -1,4 +1,6 @@
 # 🚀 続編：APIを使ってみよう！〜準備と実践編〜
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gifted-People-Support-Association/api-seminar/blob/main/section02-practice/notebook.ipynb)
+
 この資料は、Web APIの概念を理解した方が、実際にAPIを操作するための基礎知識と手順をまとめたものです。<br>
 概要についてはこちらをご覧ください。
 

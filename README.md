@@ -173,15 +173,19 @@ api-seminar/
 
 ### Google Colabで学習する場合（推奨）
 
-1. `section02-practice/notebook.ipynb`をGoogle Colabにアップロード
-2. Colabのシークレット機能でAPIキーを設定
-3. セルを順番に実行しながら学習する
+1. **ノートブックを開く**
+   - [このリンク](https://colab.research.google.com/github/Gifted-People-Support-Association/api-seminar/blob/main/section02-practice/notebook.ipynb)をクリックしてGoogle Colabで開く
+   - または、`section02-practice/notebook.ipynb`をGoogle Colabにアップロード
 
-**Google Colabでのシークレット設定：**
-- 左サイドバーの🔑アイコンをクリック
-- 名前: `GOOGLE_API_KEY` / 値: あなたのAPIキー
-- 名前: `WEATHER_API_KEY` / 値: あなたのAPIキー
-- 「ノートブックでのアクセス」をオン
+2. **APIキーを設定する**
+   - 左サイドバーの🔑アイコン（Secrets）をクリック
+   - 以下の2つのシークレットを追加：
+     - 名前: `GOOGLE_API_KEY` / 値: あなたのGemini APIキー
+     - 名前: `WEATHER_API_KEY` / 値: あなたのOpenWeatherMap APIキー
+   - 各シークレットの「ノートブックでのアクセス」をオン（✔）にする
+
+3. **セルを順番に実行しながら学習する**
+   - 各セルの実行ボタン（▶）をクリック、または `Shift + Enter` で実行
 
 ## 🎓 学習の進め方
 
@@ -222,7 +226,14 @@ api-seminar/
 
 ## 📝 ライセンス
 
-このプロジェクトは教育目的で作成されています。
+このプロジェクトは[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)の下で公開されています。
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: https://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+
+詳細は[LICENSE](LICENSE)ファイルをご覧ください。
 
 ## 🤝 貢献
 
