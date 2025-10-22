@@ -25,9 +25,9 @@ APIを使うには、レストランの注文に必要な「場所」「鍵」�
 - 使い方: 実際にプログラムを書く場合、JavaScriptやPythonといった言語を使いますが、テストや練習では、ブラウザや専用のツールを使います。
 
 本ゼミでは
-- ブラウザ専用ツール：Postman（https://www.postman.com）
-- Python専用ライブラリ：requests（https://pypi.org/project/requests）
-- Python + Gemini専用ライブラリ：python-genai（https://github.com/googleapis/python-genai）
+- ブラウザ専用ツール：Postman (https://www.postman.com)
+- Python専用ライブラリ：requests (https://pypi.org/project/requests)
+- Python + Gemini専用ライブラリ：python-genai (https://github.com/googleapis/python-genai)
 
 を通じて実際にAPIを操作していきます。
 
